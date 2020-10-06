@@ -1,0 +1,38 @@
+n=5;
+result=1;
+n=n-(1);
+while(n!=0){
+  result=result*n;
+  n=n-(1);
+  output n;
+}
+a=2;
+b=3;
+
+output a + b;
+
+
+if(a!=1 && b==0){
+  //output a;
+  a=1+1;
+  a=a/2;
+  a++;
+  //output a;
+}
+
+for (i=0; i < 5; i++) {
+  //output i;
+}
+
+if (!0 == 1) {
+  //output 6;
+}
+
+ting[1+2] = 2;
+ting[2] = 7;
+
+//output i;
+
+//output ting[3];
+//output ting[2];
+//ting[1];
