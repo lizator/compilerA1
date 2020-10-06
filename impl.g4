@@ -32,8 +32,8 @@ condition : e1=expr '!=' e2=expr # Unequal
 	  | e1=expr '>' e2=expr     # GreaterThan
 	  | e1=expr '<=' e2=expr     # LessThanOrEqual
 	  | e1=expr '>=' e2=expr     # GreaterThanOrEqual
-	  | c1=condition '&&' c2=condition     # And
 	  | c1=condition '||' c2=condition    # Or
+	  | c1=condition '&&' c2=condition     # And
 	  | '!' c=condition					# Not
 	  ;  
 
